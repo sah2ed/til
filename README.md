@@ -24,7 +24,7 @@ _3 TILs and counting..._
 
 ### Docker
 
-- [Connect to an Informix Docker container running inside a VirtualBox guest](docker/informix-container-inside-virtualbox-guest-os.md)
+- [Informix container running inside a VirtualBox guest](docker/informix-container-inside-virtualbox-guest-os.md)
 
 ### Elixir
 
@@ -63,5 +63,4 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
 &copy; 2016 Saheed
 
-This repository is licensed under the MIT license. See `LICENSE` for
-details.
+This repository is licensed under the MIT license. See `LICENSE` for details.

@@ -27,6 +27,7 @@ tcp6       1      0 ::1:43651               ::1:631                 CLOSE_WAIT  
 ```
 
 3.0. Confirm that the Informix server is accessible from *outside* the Informix container (but within the guest OS).
+  
 3.1. Get the Informix container's IP address.
 ```
 docker inspect informix | grep IPAddress
@@ -61,6 +62,7 @@ eth0      Link encap:Ethernet  HWaddr 08:00:27:c0:1b:0d
 
 ## Host OS
 1.0. Change the networking settings for the guest OS in VirtualBox to `Bridged Adapter`.
+
 
 2.0. Use the IP address obtained (step #4) to confirm that the Informix server is accessible from the host OS.
 ```
