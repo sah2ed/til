@@ -1,17 +1,18 @@
-# Connect to Informix running inside Docker container running inside VirtualBox
+# Informix running inside Docker container running inside VirtualBox
 
 Needed to connect to an Informix server running inside a docker container. 
+
 The docker container itself was being run inside a VirtualBox Ubuntu guest OS.
 
 
 ## Guest OS
-1. Start the Informix docker container and the Informix server.
+1.0. Start the Informix docker container and the Informix server.
 ```
 docker run -it --name informix -p 2021:2021 <namespace>/informix:<tag> /bin/bash
 oninit -vy
 ```
 
-2. Confirm that container port forwarding for the Informix server has been established.
+2.0. Confirm that container port forwarding for the Informix server has been established.
 ```
 sudo netstat -pant
 ```
@@ -25,7 +26,7 @@ tcp6       0      0 :::2021                 :::*                    LISTEN      
 tcp6       1      0 ::1:43651               ::1:631                 CLOSE_WAIT  996/cups-browsed
 ```
 
-3. Confirm that the Informix server is accessible from *outside* the Informix container (but within the guest OS).
+3.0. Confirm that the Informix server is accessible from *outside* the Informix container (but within the guest OS).
 3.1. Get the Informix container's IP address.
 ```
 docker inspect informix | grep IPAddress
@@ -41,7 +42,7 @@ docker inspect informix | grep IPAddress
 telnet 172.17.0.2 2021
 ```
 
-4. Obtain the IP address of the guest OS.
+4.0. Obtain the IP address of the guest OS.
 ```
 ifconfig eth0
 ```
@@ -59,9 +60,9 @@ eth0      Link encap:Ethernet  HWaddr 08:00:27:c0:1b:0d
 
 
 ## Host OS
-1. Change the networking settings for the guest OS in VirtualBox to `Bridged Adapter`.
+1.0. Change the networking settings for the guest OS in VirtualBox to `Bridged Adapter`.
 
-2. Use the IP address obtained (step #4) to confirm that the Informix server is accessible from the host OS.
+2.0. Use the IP address obtained (step #4) to confirm that the Informix server is accessible from the host OS.
 ```
 telnet 192.168.1.103 2021
 ```

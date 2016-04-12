@@ -6,13 +6,18 @@ java.sql.SQLException: Locale not supported.
 
 ## TL;DR
 The fix was to append the numeric equivalent of UTF8 to the JDBC URL.
+
 So, this didn't work: `DB_LOCALE=en_US.UTF8;CLIENT_LOCALE=en_US.UTF8`
 but this worked: `DB_LOCALE=en_US.57372;CLIENT_LOCALE=en_US.57372`
 
 
 
+## Problem
 Experienced this error again today while attempting to connect to an Informix instance using two different SQL workbench tools that use JDBC.
-The JDBC URL was essentially something like: `jdbc:informix-sqli://192.168.1.103:2021/sysmaster:informixserver=informixoltp_tcp`
+The JDBC URL was essentially something like: 
+```
+jdbc:informix-sqli://192.168.1.103:2021/sysmaster:informixserver=informixoltp_tcp
+```
 
 To fix the issue, I appended `DB_LOCALE=en_US.UTF8;CLIENT_LOCALE=en_US.UTF8` to the JDBC URL but the error remained.
 

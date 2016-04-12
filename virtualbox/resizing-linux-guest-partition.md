@@ -1,6 +1,6 @@
 # Resizing a Linux guest partition
 
-Needed to increase disk space in VirtualBox Linux VM. Ubuntu is the guest OS.
+Needed to increase disk space in VirtualBox Linux VM from `12GB` to `32GB`. Ubuntu is the guest OS.
 
 Done this before but found a clear reminder of the steps in the blog post below.
 
