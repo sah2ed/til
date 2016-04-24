@@ -6,7 +6,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post. 
 
-_4 TILs and counting..._
+_5 TILs and counting..._
 
 ---
 
@@ -26,6 +26,7 @@ _4 TILs and counting..._
 
 - [Informix container running inside a VirtualBox guest](docker/informix-container-inside-virtualbox-guest-os.md)
 - [Restore to a previously committed image](docker/restore-to-a-previous-commit.md)
+- [Remove dangling images](docker/remove-dangling-images.md)
 
 ### Elixir
 
