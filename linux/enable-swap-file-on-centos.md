@@ -1,6 +1,7 @@
 # Enable a 1GB Swap file on CentOS 6.7 (512MB DigitalOcean droplet)
-I kept getting the message "Killed" on the console while a long running compilation of 
-several binaries for `strongloop` on a [DigitalOcean (DO)](https://www.digitalocean.com/) droplet with only 512MB of RAM.
+I noticed that I kept getting the message ["Killed"](https://github.com/sah2ed/til/blob/master/linux/strongloop-compilation-errors.txt#L232) 
+on the console while a long running compilation of several binaries for 
+`strongloop` on a [DigitalOcean (DO)](https://www.digitalocean.com/) droplet with only 512MB of RAM was in progress.
 
 The compilation of optional and required dependencies using node-gyp was started with `npm install -g strong-pm`.
 
