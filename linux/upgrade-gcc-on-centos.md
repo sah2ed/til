@@ -1,5 +1,6 @@
 # Upgrade gcc 4.4.7 to 4.8 on CentOS 6.7 
-On the CentOS box I was trying to install `strongloop`, it shipped with an ancient version of g++.
+On the CentOS box I was trying to install `strongloop`, it shipped with an ancient version of g++ 
+which naturally, caused all sorts of compilation [errors](strongloop-compilation-errors.txt).
 
 At least, version 4.8 of g++ is required to compile `strongloop` for node.js 4.x.
 
