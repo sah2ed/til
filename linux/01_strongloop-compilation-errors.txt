@@ -1,0 +1,237 @@
+In file included from ../node_modules/nan/nan_new.h:189,
+                 from ../node_modules/nan/nan.h:202,
+                 from ../core.cc:2:
+../node_modules/nan/nan_implementation_12_inl.h:56: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::Date>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h: In static member function ‘static v8::Local<v8::Function> Nan::imp::Factory<v8::Function>::New(void (*)(const Nan::FunctionCallbackInfo<v8::Value>&), v8::Local<v8::Value>)’:
+../node_modules/nan/nan_implementation_12_inl.h:90: error: ‘NewInstance’ was not declared in this scope
+../node_modules/nan/nan_implementation_12_inl.h: In static member function ‘static v8::Local<v8::FunctionTemplate> Nan::imp::Factory<v8::FunctionTemplate>::New(void (*)(const Nan::FunctionCallbackInfo<v8::Value>&), v8::Local<v8::Value>, v8::Local<v8::Signature>)’:
+../node_modules/nan/nan_implementation_12_inl.h:118: error: ‘NewInstance’ was not declared in this scope
+../node_modules/nan/nan_implementation_12_inl.h: At global scope:
+../node_modules/nan/nan_implementation_12_inl.h:197: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::RegExp>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:216: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::Script>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:222: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::Script>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:254: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:262: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:268: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:275: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:281: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:286: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:347: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::UnboundScript>’ does not name a type
+../node_modules/nan/nan_implementation_12_inl.h:354: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::UnboundScript>’ does not name a type
+In file included from ../node_modules/nan/nan.h:202,
+                 from ../core.cc:2:
+../node_modules/nan/nan_new.h:293: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:299: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:305: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:311: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:317: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:323: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:329: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::String>’ does not name a type
+../node_modules/nan/nan_new.h:335: error: ‘return_t’ in class ‘Nan::imp::Factory<v8::RegExp>’ does not name a type
+In file included from ../core.cc:2:
+../node_modules/nan/nan.h: In function ‘v8::Local<v8::Value> Nan::Error(const char*)’:
+../node_modules/nan/nan.h:661: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘void Nan::ThrowError(const char*)’:
+../node_modules/nan/nan.h:661: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘v8::Local<v8::Value> Nan::RangeError(const char*)’:
+../node_modules/nan/nan.h:662: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘void Nan::ThrowRangeError(const char*)’:
+../node_modules/nan/nan.h:662: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘v8::Local<v8::Value> Nan::ReferenceError(const char*)’:
+../node_modules/nan/nan.h:663: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘void Nan::ThrowReferenceError(const char*)’:
+../node_modules/nan/nan.h:663: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘v8::Local<v8::Value> Nan::SyntaxError(const char*)’:
+../node_modules/nan/nan.h:664: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘void Nan::ThrowSyntaxError(const char*)’:
+../node_modules/nan/nan.h:664: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘v8::Local<v8::Value> Nan::TypeError(const char*)’:
+../node_modules/nan/nan.h:665: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: In function ‘void Nan::ThrowTypeError(const char*)’:
+../node_modules/nan/nan.h:665: error: ‘class v8::Local<v8::Boolean>’ has no member named ‘ToLocalChecked’
+../node_modules/nan/nan.h: At global scope:
+../node_modules/nan/nan.h:673: error: expected initializer before ‘<’ token
+../node_modules/nan/nan.h:695: error: expected initializer before ‘<’ token
+../node_modules/nan/nan.h:711: error: expected initializer before ‘<’ token
+
+
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:3205: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘v8::Local<T> v8::MaybeLocal<T>::ToLocalChecked()’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:7164: error: ‘nullptr’ was not declared in this scope
+In file included from ../node_modules/nan/nan.h:196,
+                 from ../src/validation.cc:15:
+../node_modules/nan/nan_maybe_43_inl.h: At global scope:
+../node_modules/nan/nan_maybe_43_inl.h:13: error: expected unqualified-id before ‘using’
+../node_modules/nan/nan_maybe_43_inl.h:16: error: expected unqualified-id before ‘using’
+../node_modules/nan/nan_maybe_43_inl.h:19: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:24: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:31: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:36: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:41: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:46: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:51: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:59: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:64: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:69: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:76: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:83: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:91: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:98: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:108: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:114: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:118: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:125: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:130: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:135: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:139: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:145: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:150: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:156: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:162: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:168: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:174: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:180: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:186: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:194: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:201: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:205: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:209: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:213: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:217: error: expected initializer before ‘<’ token
+../node_modules/nan/nan_maybe_43_inl.h:223: error: expected initializer before ‘<’ token
+In file included from ../node_modules/nan/nan.h:201,
+                 from ../src/validation.cc:15:
+../node_modules/nan/nan_converters.h:14: error: ISO C++ forbids declaration of ‘MaybeLocal’ with no type
+../node_modules/nan/nan_converters.h:14: error: expected ‘;’ before ‘<’ token
+../node_modules/nan/nan_converters.h:16: error: ISO C++ forbids declaration of ‘Maybe’ with no type
+../node_modules/nan/nan_converters.h:16: error: expected ‘;’ before ‘<’ token
+../node_modules/nan/nan_converters.h:26: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:27: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:28: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:29: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:30: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:31: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:32: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:42: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:43: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:44: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:45: error: ‘return_t’ does not name a type
+../node_modules/nan/nan_converters.h:46: error: ‘return_t’ does not name a type
+In file included from ../node_modules/nan/nan_converters.h:59,
+                 from ../node_modules/nan/nan.h:201,
+                 from ../src/validation.cc:15:
+../node_modules/nan/nan_converters_43_inl.h:18: error: ‘return_t’ in class ‘Nan::imp::ToFactory<v8::Boolean>’ does not name a type
+../node_modules/nan/nan_converters_43_inl.h:19: error: ‘return_t’ in class ‘Nan::imp::ToFactory<v8::Number>’ does not name a type
+../node_modules/nan/nan_converters_43_inl.h:20: error: ‘return_t’ in class ‘Nan::imp::ToFactory<v8::String>’ does not name a type
+../node_modules/nan/nan_converters_43_inl.h:21: error: ‘return_t’ in class ‘Nan::imp::ToFactory<v8::Object>’ does not name a type
+../node_modules/nan/nan_converters_43_inl.h:22: error: ‘return_t’ in class ‘Nan::imp::ToFactory<v8::Integer>’ does not name a type
+../node_modules/nan/nan_converters_43_inl.h:23: error: ‘return_t’ in class ‘Nan::imp::ToFactory<v8::Uint32>’ does not name a type
+
+
+
+../src/bufferutil.cc: At global scope:
+../src/bufferutil.cc:114: error: variable or field ‘init’ declared void
+../src/bufferutil.cc:114: error: ‘Handle’ was not declared in this scope
+../src/bufferutil.cc:114: error: expected primary-expression before ‘>’ token
+../src/bufferutil.cc:114: error: ‘target’ was not declared in this scope
+../src/bufferutil.cc:120: error: ‘init’ was not declared in this scope
+../src/bufferutil.cc:120: error: too many initializers for ‘node::node_module’
+make: *** [Release/obj.target/bufferutil/src/bufferutil.o] Error 1
+make: Leaving directory `/home/deployer/npm-global/lib/node_modules/strongloop/node_modules/bufferutil/build'
+gyp ERR! build error
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:276:23)
+gyp ERR! stack     at emitTwo (events.js:87:13)
+gyp ERR! stack     at ChildProcess.emit (events.js:172:7)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:200:12)
+gyp ERR! System Linux 2.6.32-504.12.2.el6.x86_64
+gyp ERR! command "/usr/bin/node" "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /home/deployer/npm-global/lib/node_modules/strongloop/node_modules/bufferutil
+gyp ERR! node -v v4.4.3
+gyp ERR! node-gyp -v v3.3.1
+gyp ERR! not ok
+npm WARN optional dep failed, continuing utf-8-validate@1.2.1
+
+> spawn-sync@1.0.15 postinstall /home/deployer/npm-global/lib/node_modules/strongloop/node_modules/spawn-sync
+> node postinstall
+
+npm WARN optional dep failed, continuing bufferutil@1.2.1
+
+> strong-agent@2.0.3 install /home/deployer/npm-global/lib/node_modules/strongloop/node_modules/strong-agent
+> node-gyp rebuild || exit 0
+
+make: Entering directory `/home/deployer/npm-global/lib/node_modules/strongloop/node_modules/strong-agent/build'
+  CXX(target) Release/obj.target/strong-agent/src/strong-agent.o
+In file included from /home/deployer/.node-gyp/4.4.3/include/node/node.h:42,
+                 from ../src/strong-agent.h:143,
+                 from ../src/strong-agent.cc:6:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:336: error: expected unqualified-id before ‘using’
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In constructor ‘v8::MaybeLocal<T>::MaybeLocal()’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:353: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘bool v8::MaybeLocal<T>::IsEmpty() const’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:360: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘bool v8::MaybeLocal<T>::ToLocal(v8::Local<S>*) const’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:364: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘bool v8::WeakCallbackInfo<T>::IsFirstPass() const’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:430: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: At global scope:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:469: error: expected unqualified-id before ‘using’
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In constructor ‘v8::Global<T>::Global()’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:790: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In constructor ‘v8::Global<T>::Global(v8::Global<T>&&)’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:815: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘v8::Global<T>& v8::Global<T>::operator=(v8::Global<S>&&)’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:827: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: At global scope:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:852: error: expected unqualified-id before ‘using’
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:1089: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:1095: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘v8::MaybeLocal<v8::Object> v8::Function::NewInstance(v8::Local<v8::Context>) const’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:3205: error: ‘nullptr’ was not declared in this scope
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h: In member function ‘v8::Local<T> v8::MaybeLocal<T>::ToLocalChecked()’:
+/home/deployer/.node-gyp/4.4.3/include/node/v8.h:7164: error: ‘nullptr’ was not declared in this scope
+In file included from ../src/strong-agent.cc:8:
+../src/dyninst.h: In function ‘compat::ReturnType strongloop::agent::dyninst::RunInDebugContext(const compat::ArgumentType&)’:
+../src/dyninst.h:41: error: the default argument for parameter 1 of ‘static v8::Local<v8::Script> v8::Script::Compile(v8::Local<v8::String>, v8::ScriptOrigin*)’ has not yet been parsed
+In file included from ../src/strong-agent.cc:10:
+../src/gcinfo.h: At global scope:
+../src/gcinfo.h:25: error: ‘v8::Handle’ has not been declared
+In file included from ../src/strong-agent.cc:11:
+../src/heapdiff.h:27: error: ‘v8::Handle’ has not been declared
+../src/heapdiff.h:62: error: expected ‘)’ before ‘<’ token
+../src/heapdiff.h:67: error: ISO C++ forbids declaration of ‘Handle’ with no type
+../src/heapdiff.h:67: error: expected ‘;’ before ‘<’ token
+../src/heapdiff.h:75: error: ISO C++ forbids declaration of ‘Handle’ with no type
+../src/heapdiff.h:75: error: expected ‘;’ before ‘<’ token
+../src/heapdiff.h:141: error: expected ‘)’ before ‘<’ token
+../src/strong-agent.cc:154: error: expected ‘}’ at end of input
+../src/strong-agent.cc:154: error: expected ‘}’ at end of input
+../src/strong-agent.cc:154: error: expected ‘}’ at end of input
+../src/strong-agent.h:188: warning: inline function ‘bool strongloop::agent::WakeUp::Start()’ used but never defined
+../src/strong-agent.h:201: warning: inline function ‘v8::Local<v8::Object> strongloop::agent::GetBindingObject(v8::Isolate*)’ used but never defined ../src/strong-agent.h:189: warning: inline function ‘bool strongloop::agent::WakeUp::Stop()’ used but never defined
+../src/strong-agent.h:186: warning: inline function ‘strongloop::agent::WakeUp::WakeUp(void (*)(strongloop::agent::WakeUp*))’ used but never defined ../src/strong-agent.h:187: warning: inline function ‘strongloop::agent::WakeUp::~WakeUp()’ used but never defined
+make: *** [Release/obj.target/strong-agent/src/strong-agent.o] Error 1
+make: Leaving directory `/home/deployer/npm-global/lib/node_modules/strongloop/node_modules/strong-agent/build'
+gyp ERR! build error
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:276:23)
+gyp ERR! stack     at emitTwo (events.js:87:13)
+gyp ERR! stack     at ChildProcess.emit (events.js:172:7)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:200:12)
+gyp ERR! System Linux 2.6.32-504.12.2.el6.x86_64
+gyp ERR! command "/usr/bin/node" "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /home/deployer/npm-global/lib/node_modules/strongloop/node_modules/strong-agent
+gyp ERR! node -v v4.4.3
+gyp ERR! node-gyp -v v3.3.1
+gyp ERR! not ok
+
+> strong-debugger@1.0.0 install /home/deployer/npm-global/lib/node_modules/strongloop/node_modules/strong-debugger
+> node-gyp rebuild
+
+
+Killed
+[deployer@server muse]$ g++ --version
+g++ (GCC) 4.4.7 20120313 (Red Hat 4.4.7-16)
+Copyright (C) 2010 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
