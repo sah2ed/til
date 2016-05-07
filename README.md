@@ -41,8 +41,8 @@ _7 TILs and counting..._
 
 ### Linux
 
-- [Upgrade gcc on CentOS 6.7](linux/upgrade-gcc-on-centos.md)
-- [Enable a swap file on CentOS 6.7](linux/enable-swap-file-on-centos.md)
+- [Upgrade gcc on CentOS 6.7](linux/01_upgrade-gcc-on-centos.md)
+- [Enable a swap file on CentOS 6.7](linux/02_enable-swap-file-on-centos.md)
 
 
 ### VirtualBox
