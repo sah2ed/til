@@ -6,7 +6,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post. 
 
-_5 TILs and counting..._
+_7 TILs and counting..._
 
 ---
 
@@ -17,6 +17,7 @@ _5 TILs and counting..._
 * [Git](#git)
 * [Go](#go)
 * [Informix](#informix)
+* [Linux](#linux)
 * [VirtualBox](#virtualbox)
 
 ---
@@ -37,6 +38,12 @@ _5 TILs and counting..._
 ### Informix
 
 - [Locale not supported exception](informix/locale-not-supported-exception.md)
+
+### Linux
+
+- [Upgrade gcc on CentOS 6.7](linux/upgrade-gcc-on-centos.md)
+- [Enable a swap file on CentOS 6.7](linux/enable-swap-file-on-centos.md)
+
 
 ### VirtualBox
 
