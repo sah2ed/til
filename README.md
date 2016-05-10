@@ -6,7 +6,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post. 
 
-_7 TILs and counting..._
+_8 TILs and counting..._
 
 ---
 
@@ -19,6 +19,7 @@ _7 TILs and counting..._
 * [Informix](#informix)
 * [Linux](#linux)
 * [VirtualBox](#virtualbox)
+* [Windows](#windows)
 
 ---
 
@@ -48,6 +49,11 @@ _7 TILs and counting..._
 ### VirtualBox
 
 - [Resizing a Linux guest partition](virtualbox/resizing-linux-guest-partition.md)
+
+### Windows
+
+- [Command Line Registry Editing](windows/command-line-regedit.md)
+
 
 
 ## Usage
