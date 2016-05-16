@@ -6,7 +6,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post. 
 
-_9 TILs and counting..._
+_10 TILs and counting..._
 
 ---
 
@@ -48,7 +48,8 @@ _9 TILs and counting..._
 
 ### NoSQL
 
-- [MongoDB Refresher](nosql/01_mongodb.md)
+- [MongoDB Refresher #1](nosql/01_mongodb-windows-service.md)
+- [MongoDB Refresher #2](nosql/02_mongodb-commands.md)
 
 
 ### VirtualBox

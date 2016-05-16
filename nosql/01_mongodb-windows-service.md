@@ -1,12 +1,13 @@
-# MongoDB
+# MongoDB Windows Service
 
 Several of the basic MongoDB commands which I have used in the past are now escaping me 
-so it is time to write them down as snippets so I can easily referenced them.
+so it is time to write them down as snippets so I can easily reference them.
 
 ## Installation on Windows
 After running the v3.2.6 Windows [installer](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.6-signed.msi), 
 the database directory and log file path still need to be configured for MongoDB to start successfully. 
 Ha, Just like old times (for ~ v2.x).
+
 
 ### 1.0. Create the `dbpath` and `logpath`
 ```
@@ -31,9 +32,14 @@ storage:
     dbPath: D:\Apps\MongoDB\data
 ```
 
-
 ### 3.0. Install `mongod` as a Windows service
 ```
 SET PATH=D:\Apps\MongoDB\Server\3.2\bin;%PATH%
 mongod -f D:\Apps\MongoDB\mongod.cfg --install
+```
+
+### 4.0. Start the MongoDB server
+Launch a console as `Administrator` then:
+```
+net start MongoDB
 ```
