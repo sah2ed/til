@@ -38,12 +38,12 @@ java -jar ../bfg-1.12.12.jar --delete-files OLDER-FILE-CONTAINING-PRIVATE-TEXT.m
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```
 
-# 3.3. Add back the file
+## 3.3. Add back the file
 ```
 mv ../OLDER-FILE-CONTAINING-PRIVATE-TEXT.md .
 ```
 
-# 3.4. Make all necessary modifications to the file
+## 3.4. Make all necessary modifications to the file
 ```
 vim OLDER-FILE-CONTAINING-PRIVATE-TEXT.md
 git commit -am "Added cleaned up file back to repo."
