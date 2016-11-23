@@ -6,7 +6,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post. 
 
-_12 TILs and counting..._
+_13 TILs and counting..._
 
 ---
 
@@ -47,6 +47,7 @@ _12 TILs and counting..._
 - [Upgrade gcc on CentOS 6.7](linux/01_upgrade-gcc-on-centos.md)
 - [Enable a swap file on CentOS 6.7](linux/02_enable-swap-file-on-centos.md)
 - [NFS Portmapper Attack on CentOS 6.7](linux/03_nfs-portmapper-attack.md)
+- [Ubuntu apt-get update hangs on an IPv6 address](linux/04_ubuntu-apt-get-update-hangs.md)
 
 ### NoSQL
 
