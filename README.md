@@ -6,7 +6,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post. 
 
-_13 TILs and counting..._
+_14 TILs and counting..._
 
 ---
 
@@ -62,6 +62,7 @@ _13 TILs and counting..._
 ### Windows
 
 - [Command Line Registry Editing](windows/command-line-regedit.md)
+- [PowerShell dos2unix equivalent](windows/dos2unix.md)
 
 
 
@@ -85,6 +86,6 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ## License
 
-&copy; 2016 Saheed
+&copy; 2016 - 2017 sah2ed
 
 This repository is licensed under the MIT license. See `LICENSE` for details.
